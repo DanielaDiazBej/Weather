@@ -1,6 +1,8 @@
 .o-card{
-    margin: 15%;   
-    border-radius: 8%;  
+    
+    width: 15em;   
+    border-radius: 7%;  
+    box-shadow: 0 10px 38px rgba(0,0,0,0.19), 0 36px 16px rgba(0,0,0,0.23);
 }
 
 .o-cardImage{

@@ -5,6 +5,7 @@ import City from '../City/City.js';
 import Date from '../Date/Date.js';
 import Temp from '../Temp/Temp.js';
 import WeatherBar from '../WeatherBar/WeatherBar.js';
+import RowDetailWeather from '../RowDetailWeather/RowDetailWeather.js';
 
 
 import background from '../../resources/imgs/background.png'
@@ -21,7 +22,7 @@ class CardWeather extends Component{
 
     render(){
         return(
-        <Card className="o-card text-center">
+        <Card className="o-card text-center mt-5">
         <div class="h-100">
             <Card.Img className ="o-cardImage" variant="top" src={background} />
             <Card.ImgOverlay>
@@ -40,7 +41,9 @@ class CardWeather extends Component{
             </Card.ImgOverlay>
         </div>
         <Card.Body>
-            
+            <RowDetailWeather/>
+            <RowDetailWeather/>
+            <RowDetailWeather/>
         </Card.Body>
         </Card>
         )

@@ -4,7 +4,7 @@ import CardWeather from './Card/CardWeather.js'
 
 function App() {
   return (
-    <div className="App">
+    <div className="App d-flex align-items-center">
       <CardWeather/>
     </div>
   );

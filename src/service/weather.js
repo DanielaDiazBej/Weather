@@ -8,4 +8,4 @@ export async function getWeather() {
     return responseJson
 }
 
-export default {getWeather}
+export default getWeather;

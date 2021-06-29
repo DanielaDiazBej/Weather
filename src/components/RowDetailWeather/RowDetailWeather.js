@@ -1,17 +1,21 @@
-import React from 'react'
-import { arrayVar } from './../../const/arrayVar';
+import React  from 'react';
+import './Row.css';
 
 
-function RowDetailWeather({description, value}) {
+function RowDetailWeather({icon, variableW, value}) {
 
-
+    
     return (
-        <div className="d-flex justify-content-between">
-            <span>descripcion </span>
-            <span>valor</span>
+        <div className="o-row d-flex justify-content-between">
+           
+            <span className="d-flex">
+                <img  src={icon}/><p className="o-dateV">{variableW}</p>
+                </span>
+            <span>{value}</span>
         </div>
     )
 }
+
 
 
 export default RowDetailWeather

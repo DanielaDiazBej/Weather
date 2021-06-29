@@ -6,6 +6,7 @@ function App() {
   return (
     <div className="App d-flex align-items-center">
       <CardWeather/>
+      <CardWeather/>
     </div>
   );
 }

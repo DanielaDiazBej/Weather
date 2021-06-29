@@ -1,0 +1,9 @@
+h1{
+    color:#2B2F7E;
+    font-weight: normal;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: large;
+    background:  radial-gradient(circle, rgba(235, 220, 227, 0) 2%, rgba(235,220,227,1) 50%, rgba(235, 220, 227, 0) 98%);
+    /* box-shadow: 0 5px 20px rgba(0,0,0,.8); */
+}

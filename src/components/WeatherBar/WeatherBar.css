@@ -1,0 +1,12 @@
+.o-tbar{
+    color: white;
+    font-size: small;
+}
+
+.o-bar{
+    width:7.5rem;
+    padding-left: 12px;
+    background: linear-gradient(180deg, rgba(161,139,234,1) 0%, rgb(55, 44, 138) 33%);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}

@@ -1,0 +1,9 @@
+.o-card{
+    margin: 15%;   
+    border-radius: 8%;  
+}
+
+.o-cardImage{
+    border-top-left-radius: 8%;
+    border-top-right-radius: 8%;
+}

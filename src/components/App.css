@@ -1,0 +1,13 @@
+/* body{
+  background-image: url('../resources/imgs/gradient.png');
+} */
+.App {
+  align-content: center;
+}
+
+.o-barW{
+  position: absolute;
+  bottom: 40px;
+  left: 0;
+}
+
